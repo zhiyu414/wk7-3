@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+html{
+    box-sizing:border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+      margin:0;
+      padding:0;
+  }
+ 
+  
+  .container{
+      width:1000px;
+      height:1653px;
+      margin:0 auto;
+  }
+  /* header */
+  header{
+    width: 1000px;
+    height: 83px;
+   
+    background-image:url(../images/img_nav.jpg);
+
+  }
+  .name{
+    width: 250px;
+    height: 34px;
+    margin-left: 370px;
+    padding-top: 28px;
+    font-family: 'Rozha One', serif;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+  
+  }
+
+  /* 分類 */
+  .cotain{
+    background-color:#CF9E95;
+  }
+  .title1{
+    margin-left: 94px;
+    padding-top: 39px;
+    padding-bottom: 8px;
+
+    font-family: 'Gemunu Libre', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #000000;
+  }
+  .pro-col1{
+    
+    display:flex;
+    margin-left: 94px;
+    gap: 91px;
+    font-weight: 550;
+  }
+  .protuct1{
+    width: 336px;
+    height: 146px;
+  }
+  .protuct2{
+    width: 336px;
+    height: 146px;
+  }
+  .title2{
+    margin-left: 94px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+
+    font-family: 'Gemunu Libre', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #000000;
+  }
+  .pro-col2{
+    display:flex;
+    margin-left: 94px;
+    gap: 91px;
+    font-weight: 550;
+  }
+  .protuct3{
+    width: 336px;
+    height: 146px;
+  }
+  .protuct4{
+    width: 336px;
+    height: 146px;
+  }
+  .img-pro{
+    box-shadow:7px 5px 0px #7E524C;
+  }
+  
+
+
+
+
+
+
+
+ /* 介紹 */
+ .p1cname,.p2cname,.p3cname,.p4cname{
+  font-family: 'Fjalla One', sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+
+ }
+
+ .p1cname,.p1ename{
+   text-align: right;
+ }
+ .p2cname,.p2ename{
+  text-align: left;
+}
+.p3cname,.p3ename{
+  text-align: right;
+}
+.p4cname,.p4ename{
+  text-align: left;
+}
+
+.p1ename,.p2ename,.p3ename,.p4ename{
+  font-family: 'Fjalla One', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+
+}
+
+
+ .line1{
+   width: 427px;
+   height: 1px;
+   background-color: #000000;
+ }
+ .line2{
+  width: 468px;
+  height: 1px;
+  background-color: #000000;
+}
+.line3{
+  width: 479px;
+  height: 1px;
+  background-color: #000000;
+}
+.line4{
+  width: 424px;
+  height: 0.5px;
+  background-color: #000000;
+}
+
+.csl0{
+  margin-left: 158px;
+}
+.csl1{
+  margin-left: 215px;
+}
+
+ .img-intro{
+   width: 243px;
+   height: 243px;
+ }
+ .pro-intro{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   /* width: 777px; */
+
+ }
+
+ .p1NM,.p2NM,.p3NM,.p4NM{
+  width: 56px;
+  height: 52px;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height:18px;
+  color: #000000;
+  text-align: center;
+  
+  padding-top: 8px;
+  margin-top: 50px;
+ }
+
+ .p1NM{
+  margin-left: 38px;
+  background-image:url(../images/Ellipse\ 1.png);
+ }
+ .p2NM{
+  margin-right: 10px;
+  background-image:url(../images/Ellipse\ 2.png);
+ }
+ .p3NM{
+  margin-left: 5px;
+  background-image:url(../images/Ellipse\ 3.png);
+ }
+ .p4NM{
+  background-image:url(../images/Ellipse\ 4.png);
+ }
+
+ .intro1{
+  display:flex;
+ 
+  margin-left: 50px;
+  padding-top: 86px;
+}
+ .intro2{
+  display:flex;
+ 
+  margin-right: 68px;
+  
+}
+ .intro3{
+  display:flex;
+ 
+  margin-left: 50px;
+  
+}
+.intro4{
+  display:flex;
+  
+  margin-right: 85px;
+  padding-bottom: 50px;
+  
+}
+.p1intro,.p2intro,.p3intro,.p4intro{
+  font-family: Fjalla One;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: start;
+}
+.p1intro{
+  width: 158px;
+  height: 54px;
+  margin-left: 40px;
+}
+.p2intro{
+  width: 228px;
+  height: 54px;
+  margin-left: 210px;
+}
+.p3intro{
+  width: 172px;
+  height: 55px;
+  margin-left: 40px;
+}
+.p4intro{
+  width: 218px;
+  height: 54px;
+  margin-left: 100px;
+  margin-top: 18px;
+}
+
+
+/* footer */
+footer{
+  display: flex;
+  width: 1000px;
+  height: 71px;
+  background-image:url(../images/img_footer.jpg);
+  font-family: Fjalla One;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 18px;
+  
+}
+.footer{
+  display: flex;
+  margin-left:326px;
+}
+.copyright{
+  margin-right: 28px;
+  padding-top: 29px;
+  width: 76px;
+}
+.footer_lis{
+  display:flex;
+  padding-top: 29px;
+  margin-right: 366px;
+}
+a{
+  text-decoration: none;
+  width: 56px;
+  color: #000000;
+}
+.line5,.line6{
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 1px;
+  height:12px;
+  background-color: #000000;
+}
